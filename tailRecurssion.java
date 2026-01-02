@@ -1,0 +1,15 @@
+public class tailRecurssion {
+    public static void main(String[] args) {
+        // System.out.println(fact(5));
+        fun(3);
+    }
+
+    public static void fun(int n) {
+        if (n == 1) {
+            System.out.println(n + "");
+        } else {
+            System.out.println(n + " ");
+            fun(n - 1);
+        }
+    }
+}
